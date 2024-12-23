@@ -74,3 +74,4 @@ contract Slasher is Initializable, OwnableUpgradeable, ISlasher, Pausable {
 
     function whitelistedContractDetails(address, address) external view returns (MiddlewareDetails memory) {}
 }
+
